@@ -2,43 +2,64 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Montserrat:400,700" rel="stylesheet">
 </head>
 
 <body>
 
-<div>
-	<ul>
+<div class="header">
+	<ul class="list-inline">
 		<li><a href="index.html">About</a></li>
-		<li><a href="portfolio.html">Portfolio</a></li>
+		<li><a href="portfolio.html" class="active">Portfolio</a></li>
 	</ul>
-	<h1>Jamie Tanner</h1>
+	<h1>JAMIE TANNER</h1>
 </div>
 
-<h2>Experience</h2>
+<div class="container">
+	<div class="experience">
+		<h2>EXPERIENCE</h2>
+		<p>I recently graduated from a Front-End Web Development course at General Assembly where I learned HTML, CSS, JavaScript, jQuery and how to be an awesome Front-End Web Developer! During my spare time, I enjoy senior water aerobics, pickling, and spending time with my goldfish, Jerry.</p>
+	</div>
 
-<p>I recently graduated from a Front-End Web Development course at General Assembly where I learned HTML, CSS, JavaScript, jQuery and how to be an awesome Front-End Web Developer! During my spare time, I enjoy senior water aerobics, pickling, and spending time with my goldfish, Jerry.</p>
+	<div class="portfolio">
+		<h2>PORTFOLIO</h2>
 
-<h3>Portfolio</h3>
+		<div class="portfolio-item">
+			<div class="portfolio-text">
+				<h3>JamieTanner.com</h3>
+				<h4>Web Developer, 2001 - present</h4>
+				<p>Developed a multi-column layout blog, landing page, and portfolio pages. Outdated static site, desperately needs a responsive redesign.</p>
+			</div>
+			<a href="http://jamietanner.com"><img src="images/jt.jpg"></a>
+		</div>
 
-<div>
-<h4>Web Developer</h4>
-<h5>Relaxr 2015 - present</h5>
-<p>Developed a multi-column layout blog, landing page, and contact forms that render on mobile devices.</p>
-<img src="http://placehold.it/400x300">
-</div>
+		<div class="portfolio-item">
+			<div class="portfolio-text">
+				<h3>TheBlackWellBook.com</h3>
+				<h4>Web Developer, 2012 - present</h4>
+				<p>Used Twitter Bootstrap to develop this book's responsive homepage. Didn't really understand Bootstrap at the time, sloppily coded, also needs some fine-tuning.</p>
+			</div>
+			<a href="http://theblackwellbook.com"><img src="images/tbw.jpg"></a>
+		</div>
 
-<div>
-<h4>Web Developer</h4>
-<h5>Startup Matchmaker 2015 - present</h5>
-<p>Used a design team's wireframes to develop this company's responsive homepage.</p>
-<img src="http://placehold.it/400x300">
-</div>
+		<div class="portfolio-item">
+			<div class="portfolio-text">
+				<h3>Design Portfolio</h3>
+				<h4>Web Developer, 2016 - present</h4>
+				<p>Design portfolio site for job search, built from Twitter Bootstrap template.</p>
+			</div>
+				<a href="http://jamietanner.com/design"><img src="images/design.jpg"></a>
+		</div>
+	</div>
 
-<div>
-<h4>Web Developer</h4>
-<h5>CitiPix 2015 - present</h5>
-<p>Built web app prototype that allows users to store and quickly retrieve photos using keywords.</p>
-<img src="http://placehold.it/400x300">
+	<div class="education">
+		<h2>EDUCATION</h2>
+		<ul>
+			<li><strong>General Assembly</strong> - FEWD 2015</li>
+			<li><strong>College of Soft Knocks</strong> - B.S. 2009</li>
+			<li><strong>School of Hard Knocks</strong> - 2005 (Honors)</li>
+		</ul>
+	</div>
 </div>
 
 </body>
